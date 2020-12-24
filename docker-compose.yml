@@ -5,7 +5,7 @@ services:
     networks:
       - piwigo
     ports:
-      - "8000:8000"
+      - "8899:80"
 
   mysql:
     image: mysql:8.0.18
